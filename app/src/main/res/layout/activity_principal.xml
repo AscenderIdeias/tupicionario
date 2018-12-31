@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Principal">
+
+    <LinearLayout
+        android:id="@+id/L_Tupicionario"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvBichos"
+            style="@style/CategoriaStyle"
+            android:background="@color/bichos_categoria"
+            android:text="@string/bichos_categoria"
+            app:fontFamily="casual" />
+
+        <TextView
+            android:id="@+id/tvCulinaria"
+            style="@style/CategoriaStyle"
+            android:background="@color/culinaria_categoria"
+            android:text="@string/culinaria_categoria"
+            app:fontFamily="casual" />
+
+        <TextView
+            android:id="@+id/tvPlantas"
+            style="@style/CategoriaStyle"
+            android:background="@color/plantas_categoria"
+            android:text="@string/plantas_categoria"
+            app:fontFamily="casual" />
+
+        <TextView
+            android:id="@+id/tvPovosNativos"
+            style="@style/CategoriaStyle"
+            android:background="@color/povos_nativos_categoria"
+            android:text="@string/povos_nativos_categoria"
+            app:fontFamily="casual" />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
